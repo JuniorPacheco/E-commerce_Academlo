@@ -302,3 +302,22 @@ h1 {
 .car__total {
     padding-top: 2rem;
 }
+
+/* Footer */
+
+.footer {
+    font-weight: bold;
+    padding: 0 2rem;
+    height: 100px;
+    background-color: var(--primario);
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+    }
+}

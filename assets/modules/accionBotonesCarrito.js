@@ -14,6 +14,10 @@ export default function accionesBotones(e) {
         }else if(e.target.classList.contains("bxs-message-square-x")){
             delete carrito[e.target.getAttribute('data-id-item-car')];
         }
+    }else if(e.target.classList.contains("car__buttonDeleteAll")){
+        for(let i = Object.values(carrito).length - 1; i >= 0 ; i--){
+            delete carrito[Object.values(carrito)[i].id];
+        }
     }
     pintarCarrito();
 }

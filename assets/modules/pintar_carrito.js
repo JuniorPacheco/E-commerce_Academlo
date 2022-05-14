@@ -38,7 +38,6 @@ export default function pintarCarrito() {
     total.innerHTML = precioTotal;
     carItems.innerHTML = templateItemsCarritoHTML;
     if(Object.values(carrito).length === 0){
-        console.log("Estoy entrnado")
         carItems.insertAdjacentHTML('afterbegin', `
         <div class="car__vacio">
             <img src="assets/img/carVacio.png" alt="Caja vacia">
