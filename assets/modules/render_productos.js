@@ -1,10 +1,11 @@
 import baseDeDatos from "../database/database.js"
 
 const contenedorProductos = document.querySelector(".productos__container");
+
 let productsTemplateHTML = '';
 baseDeDatos.forEach((elemento) => {
 
-   productsTemplateHTML += `
+    productsTemplateHTML += `
     <article class="producto__item">
     
     <div class="producto__imagen">

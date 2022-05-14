@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
     <title>Utopia</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,6 +65,25 @@
                 en el area de insumos agricolas, contamos con años de 
                 experiencia e ingenieros capacitados que lo guiarán de la mano a un cultivo más productivo</p>
         </section>
+
+        <section class="car">
+            <h2>Mi Carrito</h2>
+   
+            <!-- Aqui van los items del carrito -->
+            <section class="car__items">
+                <div class="car__vacio">
+                   <img src="assets/img/carVacio.png" alt="Caja vacia">
+                   <figcaption>Carrito Vacio</figcaption>
+               </div>
+            </section>
+   
+            <button class="car__buttonDeleteAll"><i class='bx bxs-message-square-x'></i> Vaciar Carrito</button>
+   
+            <div class="car__total">
+               <p>Total: $<span>0</span></p>
+            </div>
+   
+         </section>
 
     </main>
     <script type="module" src="./assets/main.js"></script>

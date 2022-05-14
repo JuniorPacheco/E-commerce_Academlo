@@ -5,6 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
    <title>Utopia</title>
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -70,58 +71,10 @@
       <section class="car">
          <h2>Mi Carrito</h2>
 
-         <section class="car__items">
-            <article class="itemC">
+         <!-- Aqui van los items del carrito -->
+         <section class="car__items"></section>
 
-               <div class="itemC__imagen">
-                  <img loading="lazy" src="assets/img/product.avif" alt="imagen producto">
-               </div>
-               <div class="itemC__info">
-                  <p class="itemC__nombre">Nombre Producto</p>
-                  <p class="itemC__precio">Precio c/u: $<span>0</span></p>
-                  <p class="itemC__subtotal">Subtotal: $<span>0</span></p>
-               </div>
-               <div class="itemC__actions">
-                  <div class="itemC__btnMenos">
-                     <i class='bx bxs-minus-circle'></i>
-                  </div>
-                  <p class="itemC__cantidad">1 unidad</p>
-                  <div class="itemC__btnMas">
-                     <i class='bx bxs-plus-circle'></i>
-                  </div>
-               </div>
-               <div class="itemC__deleteAll">
-                  <i class='bx bxs-message-square-x'></i>
-               </div>
-
-            </article>
-
-
-            <article class="itemC">
-
-               <div class="itemC__imagen">
-                  <img loading="lazy" src="assets/img/product.avif" alt="imagen producto">
-               </div>
-               <div class="itemC__info">
-                  <p class="itemC__nombre">Nombre Producto</p>
-                  <p class="itemC__precio">Precio c/u: $<span>0</span></p>
-                  <p class="itemC__subtotal">Subtotal: $<span>0</span></p>
-               </div>
-               <div class="itemC__actions">
-                  <div class="itemC__btnMenos">
-                     <i class='bx bxs-minus-circle'></i>
-                  </div>
-                  <p class="itemC__cantidad">1 unidad</p>
-                  <div class="itemC__btnMas">
-                     <i class='bx bxs-plus-circle'></i>
-                  </div>
-               </div>
-               <div class="itemC__deleteAll">
-                  <i class='bx bxs-message-square-x'></i>
-               </div>
-
-            </article>
-         </section>
+         <button class="car__buttonDeleteAll"><i class='bx bxs-message-square-x'></i> Vaciar Carrito</button>
 
          <div class="car__total">
             <p>Total: $<span>0</span></p>
